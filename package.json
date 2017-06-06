@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-aenondynamics",
+  "version": "0.1.0",
+  "author": "Andi Dittrich (https://andidittrich.de)",
+  "license": "MIT",
+  "homepage": "https://github.com/AenonDynamics/eslint-config-aenondynamics",
+  "bugs": "https://github.com/AenonDynamics/eslint-config-aenondynamics/issues",
+  "repository": "AenonDynamics/eslint-config-aenondynamics",
+  "description": "ESLint shareable config used by Aenon Dynamics",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "corporate",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce"
+  ],
+  "files": [
+    "CHANGES.md",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "main": "ruleset.js",
+  "bin": {},
+  "preferGlobal": false,
+  "engines": {
+    "node": ">=7.6"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
